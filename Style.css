@@ -1,0 +1,71 @@
+body{
+  background-color: yellow;
+  color:black;
+}
+img{
+  width:80%;
+  height:40vh;
+  border-radius: 50%;
+  border: 4px solid blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box1{
+   width: 35vw;
+   height: 15vh;
+   background-color:grey;
+   color: blue;
+   overflow:scroll;
+   line-height:2;
+   letter-spacing:1px;
+   word-spacing:1px;
+   font-size: 25px;
+}
+.box1 h2{
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.box1 h2:hover{
+  color: white;
+  position: fixed;
+  background-color: wheat;
+}
+.box1:hover{
+   width: 50vh;
+   height: 25vh;
+   background-color:lightgreen;
+   color:red;
+   overflow:scroll;
+   line-height:2;
+   letter-spacing:1px;
+   word-spacing:1px;
+}
+.box2{
+  width: 15vw;
+  height: 10vh;
+  position: absolute;
+  right: 30px;
+  bottom:220px;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 1px 2px red,1px 1px 2px black,1px 1px 2px white;
+}
+.box2:hover{
+  box-shadow: 5px 5px 5px darkblue,5px 5px 5px black;
+}
+.box3{
+  text-align: center;
+  font-size: 30px;
+  font-family: Sans-Serif;
+  font-weight: 1000;
+text-shadow: 2px 2px 2px grey,2px 2px 5px darkblue, 2px 2px 5px white;
+}
+ li{
+  font-size: 30px;
+  font-family: Sans-Serif;
+  color:indigo;
+}
